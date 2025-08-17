@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     <div className="p-4 space-y-8">
-      <h1 className="flex justify-center">CRUD</h1>
+      <h1 className="flex justify-center">Form CRUD</h1>
 
       <form action={handleAdd} className="space-x-1" ref={formRef}>
         <label htmlFor="name">Name</label>
